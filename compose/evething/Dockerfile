@@ -10,7 +10,7 @@ RUN chown evething /opt/evething /var/lib/evething
 WORKDIR /opt
 
 USER evething
-RUN git clone git://github.com/madcowfred/evething.git
+RUN git clone -b develop git://github.com/madcowfred/evething.git
 
 USER root
 ADD requirements.txt /opt/requirements.txt
