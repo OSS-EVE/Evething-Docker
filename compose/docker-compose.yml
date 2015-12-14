@@ -22,7 +22,7 @@ db:
 lb:
   build: nginx
   ports:
-    - "80:80"
+    - "3040:80"
   links:
     - web
   volumes_from:

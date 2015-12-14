@@ -84,15 +84,15 @@ DISABLE_ACCOUNT_PASSWORD = False
 ONLY_NEW_APIKEYS = False
 
 # Allow new users to register
-ALLOW_REGISTRATION = False
+ALLOW_REGISTRATION = True
 
 # Default stagger APITask calls on startup
 STAGGER_APITASK_STARTUP = True
 
 # Market Data URL for prices
 # - works on both eve-central or goonmetrics.
-# PRICE_URL = 'http://api.eve-central.com/api/marketstat/?station_id=60003760&typeid=%s'
-PRICE_URL = 'http://goonmetrics.com/api/price_data/?station_id=60003760&type_id=%s'
+PRICE_URL = 'http://api.eve-central.com/api/marketstat/?station_id=60003760&typeid=%s'
+#PRICE_URL = 'http://goonmetrics.com/api/price_data/?station_id=60003760&type_id=%s'
 
 # Celery broker URL - http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html#choosing-a-broker
 BROKER_URL = 'redis://compose_redis_1/'
