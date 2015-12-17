@@ -1,7 +1,7 @@
 Evething Docker
 ===============
 
-Multiple example Docker deployments for evething
+Docker Image for [evething](https://github.com/madcowfred/evething)
 
 # Run the docker:
     docker-compose up
